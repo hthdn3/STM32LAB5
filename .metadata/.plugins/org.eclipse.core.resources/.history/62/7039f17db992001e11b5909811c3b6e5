@@ -1,0 +1,13 @@
+/*
+ * uart_communication.h
+ *
+ *  Created on: Dec 4, 2023
+ *      Author: Acer
+ */
+
+#ifndef INC_UART_COMMUNICATION_H_
+#define INC_UART_COMMUNICATION_H_
+
+
+
+#endif /* INC_UART_COMMUNICATION_H_ */

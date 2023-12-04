@@ -1,0 +1,4 @@
+uart_communication_fsm.c:15:6:send_ADC	8	static
+uart_communication_fsm.c:20:6:uart_communication_fsm	8	static
+uart_communication_fsm.c:46:5:is_RST	4	static
+uart_communication_fsm.c:54:5:is_OK	4	static

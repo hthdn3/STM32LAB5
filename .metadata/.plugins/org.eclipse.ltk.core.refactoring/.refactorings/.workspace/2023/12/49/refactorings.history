@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;STM32_Project/Core/Inc/command_parser_fsm.c&apos;" deleteContents="false" description="Delete resource &apos;STM32_Project/Core/Inc/command_parser_fsm.c&apos;" element1="/STM32_Project/Core/Inc/command_parser_fsm.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1701703515969"/>
+</session>

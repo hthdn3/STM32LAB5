@@ -1,0 +1,53 @@
+22:30:22 **** Incremental Build of configuration Debug for project STM32_Project ****
+make -j16 all 
+arm-none-eabi-gcc -o "STM32_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\GIT_LAB5\STM32_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32_Project.elf
+ 
+arm-none-eabi-size   STM32_Project.elf 
+arm-none-eabi-objdump -h -S  STM32_Project.elf  > "STM32_Project.list"
+arm-none-eabi-objcopy  -O ihex  STM32_Project.elf  "STM32_Project.hex"
+   text	   data	    bss	    dec	    hex	filename
+  16584	    120	   2112	  18816	   4980	STM32_Project.elf
+arm-none-eabi-objcopy  -O binary  STM32_Project.elf  "STM32_Project.bin"
+Finished building: default.size.stdout
+ 
+Finished building: STM32_Project.hex
+Finished building: STM32_Project.bin
+ 
+ 
+Finished building: STM32_Project.list
+ 
+22:31:44 **** Incremental Build of configuration Debug for project STM32_Project ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/s.h:17:21: warning: 'Get_New_Task_ID' declared 'static' but never defined [-Wunused-function]
+   17 |     static uint32_t Get_New_Task_ID(void);
+      |                     ^~~~~~~~~~~~~~~
+../Core/Inc/s.h:30:17: warning: 'TIMER_Init' declared 'static' but never defined [-Wunused-function]
+   30 |     static void TIMER_Init();
+      |                 ^~~~~~~~~~
+arm-none-eabi-gcc -o "STM32_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\GIT_LAB5\STM32_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32_Project.elf
+ 
+arm-none-eabi-size   STM32_Project.elf 
+arm-none-eabi-objdump -h -S  STM32_Project.elf  > "STM32_Project.list"
+arm-none-eabi-objcopy  -O ihex  STM32_Project.elf  "STM32_Project.hex"
+   text	   data	    bss	    dec	    hex	filename
+  16580	    120	   2112	  18812	   497c	STM32_Project.elf
+arm-none-eabi-objcopy  -O binary  STM32_Project.elf  "STM32_Project.bin"
+Finished building: default.size.stdout
+ 
+Finished building: STM32_Project.hex
+Finished building: STM32_Project.bin
+ 
+ 
+Finished building: STM32_Project.list
+ 
+22:32:18 **** Incremental Build of configuration Debug for project STM32_Project ****
+make -j16 all 
+arm-none-eabi-size   STM32_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16580	    120	   2112	  18812	   497c	STM32_Project.elf
+Finished building: default.size.stdout
+ 
